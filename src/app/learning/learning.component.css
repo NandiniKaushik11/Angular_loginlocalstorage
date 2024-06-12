@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #007bff;
+    margin-right: 150px;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+  }
+  
+  .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+  .container {
+    background-color:rgb(242, 228, 203) ;
+    margin-top: 50px;
+    
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+    margin-right: 150px;
+  }
+  
+   ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #343a40;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  } 
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    ul li {
+      font-size: 1rem;
+    }
+  }
+  
